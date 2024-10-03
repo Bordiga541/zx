@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="438.46289"
+   height="438.46295"
+   viewBox="0 0 438.46289 438.46295"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient29">
+      <stop
+         style="stop-color:#002b11;stop-opacity:1"
+         offset="0"
+         id="stop29" />
+      <stop
+         style="stop-color:#00aa44;stop-opacity:1"
+         offset="1"
+         id="stop30" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient29"
+       id="linearGradient30"
+       x1="1963.9581"
+       y1="234.95462"
+       x2="2575.791"
+       y2="-360.59683"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="g1"
+     transform="translate(-1929.4692,184.73512)">
+    <g
+       id="g30">
+      <path
+         id="path29"
+         style="fill:url(#linearGradient30);stroke-width:18.8976"
+         d="M 2367.9322,34.496346 A 219.23148,219.23148 0 0 1 2148.7007,253.72782 219.23148,219.23148 0 0 1 1929.4692,34.496346 219.23148,219.23148 0 0 1 2148.7007,-184.73513 219.23148,219.23148 0 0 1 2367.9322,34.496346 Z" />
+      <path
+         id="path4"
+         d="m 2187.0607,113.04145 h -78.5262 l 39.2637,-63.073111 z m 12.4346,-146.124629 90.9584,146.124629 h -88.9181 L 2155.0345,38.341574 Z M 2312.5836,125.3294 2199.4953,-56.336696 2147.7982,26.715997 2096.0999,-56.336706 1984.8177,122.43276 h 14.4749 l 96.8073,-155.515939 44.4609,71.424753 -54.1491,86.987816 h 226.1719"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.118278" />
+      <path
+         id="path30"
+         style="fill:#ffffff;stroke-width:18.8976"
+         d="m 2184.0836,-83.52948 a 35.38295,35.38295 0 0 1 -35.3829,35.38295 35.38295,35.38295 0 0 1 -35.383,-35.38295 35.38295,35.38295 0 0 1 35.383,-35.38295 35.38295,35.38295 0 0 1 35.3829,35.38295 z" />
+    </g>
+  </g>
+</svg>

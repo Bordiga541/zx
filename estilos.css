@@ -1,0 +1,162 @@
+/* Fuentes */
+@font-face {
+    font-family: "Noto";
+    src: url(fonts/Noto-Variable.ttf);
+}
+
+/* Modelo de caja alternativo */
+* {
+    box-sizing: border-box;
+}
+
+/* Resetar margenes */
+body,
+h1,
+h2,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Raíz definir:
+- Familia tipográfica
+- Tamaño fuente
+- Color
+*/
+:root {
+    line-height: 1.8rem;
+    font-size: 18px;
+    color: #333;
+    font-family: Noto, sans-serif;
+}
+
+/* estilos */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.cabecera-principal {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 10%;
+    background-color: rgba(0, 0, 0, 0.788);
+    backdrop-filter: blur(30px);
+}
+
+.cabecera-principal img {
+     width: 15px;
+}
+
+.cabecera-principal nav {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.cabecera-principal nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecera-principal a img {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    margin: 0;
+}
+
+.contenido-principal {
+    padding-bottom: 10%;
+    flex-grow: 1;
+}
+
+.contenido-principal .imagen-principal {
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contenido-principal section {
+    padding: 0 10%;
+}
+
+.pie-principal {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.pie-principal ul {
+    list-style: none;
+    text-align: center;
+}
+
+.pie-principal ul li a {
+    color: black; /* Cambia el color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+/* Páginas ***********/
+
+/* Index **/
+.contenido-principal h1 {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.seccion-index {
+    text-align: center;
+}
+
+/* Contacto **/
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.formulario-contacto input {
+    padding: 5px 10px;
+    font-size: inherit;
+    margin-bottom: 15px;
+
+}
+
+.formulario-contacto textarea {
+    font-family: inherit;
+    font-size: inherit;
+    min-height: 250px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario-contacto button {
+    padding: 10px;
+    margin: 15px 0;
+    font-size: inherit;
+}
+
+.seccion-index p {
+    padding: 10px;
+    color: #fff;
+    background-color: #dd6909;
+    border-radius: 20px 0 20px 0;
+    margin-right: 10%;
+    margin-left: 10%;
+}
